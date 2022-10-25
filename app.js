@@ -1,11 +1,6 @@
-/* Imports */
-
-/* Get DOM Elements */
-
-/* State */
-
-/* Events */
-
-/* Display Functions */
-
-// (don't forget to call any display functions you want to run on page load!)
+const updateBtn = document.getElementById('update-btn');
+updateBtn.addEventListener('click', () => {
+    console.log('button was clicked');
+    const nameInput = document.getElementById('name-input');
+    nameDisplay.textContent = nameInput.value;
+});
