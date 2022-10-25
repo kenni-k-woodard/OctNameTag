@@ -25,3 +25,26 @@ Additional considerations:
     -   What needs to live in a persistence layer?
 -   Is there some state we need to initialize?
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+
+# state
+
+    -display name
+    -color of name tag
+
+# events
+
+    -input field
+    -button to submit name tag
+    -selector -color dropdown
+
+H1 title (hello)
+p intro (my name is)
+
+input
+
+button
+
+selector
+
+H1 hello my name is
+p name
